@@ -1,0 +1,12 @@
+[[plugins]] # explorer
+repo = 'scrooloose/nerdtree'
+
+[[plugins]] # toml syntax
+repo = 'cespare/vim-toml'
+on_ft = 'toml'
+
+[[plugins]]
+repo = 'Shougo/unite.vim'
+
+[[plugins]]
+repo = 'Shougo/neomru.vim'
