@@ -1,20 +1,30 @@
 #!/bin/bash
 
-if [ -e "$HOME/.bashrc" ]; then
-  rm $HOME/.bashrc
-  echo "remove .bashrc ..."
-fi
+#DOTPATH=~/.dotfiles
 
-if [ -e "$HOME/.bash_profile" ]; then
-  rm $HOME/.bash_profile
-  echo "remove .bash_profile ..."
-fi
+#if has "git"; then
+#	git clone --recursive "$GITHUB_URL" "$DOTPATH"
+#elif has "curl" || "wget"; then
+#	tarball="repository URL"
+#
+#	if has "curl"; then
+#	    curl -L "$tarball"
+#	elif has "wget"; then
+#	    wget -O - "$tarball"
+#	fi | tar xv -
+#
+#	mv -f dotfiles-master "$DOTPATH"
+#else
+#	die "curl or wget required"
+#fi
+#
+#cd ~/.dotfiles
+#if [ $? -ne 0 ]; then
+#	die "not found: $DOTPATH"
+#fi
 
-echo "recreate config Files ... "
-
-DOT_FILES=(.bashrc .bash_profile)
-
-for file in ${DOT_FILES[@]}
+for file in .??*
   do
-    ln -s $HOME/dotfiles/$file $HOME/$file
+    [ "$file" = ".git" ] && continue #escape
+    ln -snfv "$file" "$HOME"/"$file"
   done
