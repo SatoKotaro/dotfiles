@@ -1,5 +1,3 @@
 # dotfiles
 
-bash only
-
-`bash init.sh`
+`sh init.sh`
