@@ -1,3 +1,3 @@
 # dotfiles
 
-`sh init.sh`
+`curl -L raw.github.com/SatoKotaro/dotfiles/master/install.sh | sh`
