@@ -1,4 +1,6 @@
+# pronpt
 
+<<<<<<< HEAD
 #--------------- pronpt  -------------------
 PS1='\s\v\ \033[1;36m\] $USER /\W \033 0m $ '
 
@@ -43,5 +45,10 @@ setopt hist_ignore_space
 # 続けて <Tab> を押すと候補からパス名を選択できるようになる
 # 候補を選ぶには <Tab> か Ctrl-N,B,F,P
 zstyle ':completion:*:default' menu select=1
+=======
+PS1='\s\v\[\033[1;36m\][\t][$USER][/\W]\033[0m]$'
+
+# bashrc
+>>>>>>> 687a519c7015c469523121efa909fde3003e7a29
 
 
