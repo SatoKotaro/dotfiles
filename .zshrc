@@ -54,5 +54,7 @@ source ~/.bash_profile
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
+alias pbcopy='xsel --clipboard --input'
+
 
 echo road .zshrc
