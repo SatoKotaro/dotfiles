@@ -1,4 +1,3 @@
 #!/bin/bash
 
-DOTPATH=~/.dotfiles
-
+echo run install.sh

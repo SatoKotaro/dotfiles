@@ -1,6 +1,7 @@
 #!/bin/bash
 
-cat ./dotList.txt | while read line
+LISTPATH=$HOME/dotfiles/etc/dotList.txt
+cat $LISTPATH | while read task_name
   do
-    rm $HOME/$line
+    rm $HOME/$task_name
   done
