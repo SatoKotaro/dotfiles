@@ -2,4 +2,4 @@
 .bashrc
 .zshrc
 .zshenv
-.atom/
+.atom

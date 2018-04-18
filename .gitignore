@@ -1,8 +1,10 @@
-
 .atom/.apm/
+.atom/.atom/.gitignore
+.atom/.atom/github.cson
 .atom/.node-gyp/
+.atom/blob-store/
 .atom/compile-cache/
-.atom/npm-debug.log
+.atom/github.cson
 .atom/packages/
-.atom/projects.cson
 .atom/storage/
+.atom/.atom/packages/
