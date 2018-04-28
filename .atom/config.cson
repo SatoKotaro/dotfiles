@@ -1,0 +1,12 @@
+"*":
+  editor:
+    autoIndent: false
+    autoIndentOnPaste: false
+    invisibles: {}
+    showInvisibles: true
+    zoomFontWhenCtrlScrolling: true
+  "exception-reporting":
+    userId: "8efed319-68c0-4305-9d61-6aa505c370b4"
+  "plantuml-viewer":
+    charset: "UTF-8"
+  "sass-autocompile": {}
