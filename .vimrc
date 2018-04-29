@@ -21,15 +21,3 @@ set shiftwidth=2
 set incsearch
 set hlsearch
 
-if &compatible
-  set nocompatible
-endif
-set runtimepath+={./}
-
-call dein#begin(expand("~/.cache/dein"))
-
-call dein#add('インストールしたいGitHubリポジトリの作者/リポジトリ名')
-if dein#check_install()
-  call dein#install()
-endif
-call dein#end()

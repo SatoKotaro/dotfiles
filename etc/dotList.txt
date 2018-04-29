@@ -4,3 +4,4 @@
 .zshenv
 .atom
 .config
+.vimrc

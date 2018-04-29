@@ -8,3 +8,4 @@
 .atom/packages/
 .atom/storage/
 .atom/.atom/packages/
+.config/nvim/repos/
