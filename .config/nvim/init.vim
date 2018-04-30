@@ -24,11 +24,13 @@ set hlsearch
 if &compatible
   set nocompatible
 endif
-set runtimepath+={./}
-
+set runtimepath+=~/dotfiles/.config/nvim/repos/github.com/Shougo/dein.vim
 call dein#begin(expand("~/.cache/dein"))
 
-call dein#add('インストールしたいGitHubリポジトリの作者/リポジトリ名')
+call dein#add('Shougo/deoplete.nvim')
+call dein#add('cohama/lexima.vim')
+call dein#add('flazz/vim-colorschemes')
+call dein#add('flazz/vim-colorschemes')
 if dein#check_install()
   call dein#install()
 endif
