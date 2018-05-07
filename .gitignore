@@ -9,3 +9,4 @@
 .atom/storage/
 .atom/.atom/packages/
 .config/nvim/repos/
+.config/nvim/.netrwhist
