@@ -77,3 +77,6 @@ export NVM_DIR="$HOME/.nvm"
 export PATH="$HOME/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
+
+# brew実行時だけ.pyenvのパス外す(*$PATHの一番後ろに対象パス通してたらエイリアス効かない)
+alias brew="env PATH=${PATH/\/Users/\satokotaro/\.pyenv\/shims:/} brew"
