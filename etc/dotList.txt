@@ -2,7 +2,12 @@
 .bashrc
 .zshrc
 .zshenv
-.atom
-.config
+.atom/config.cson
+.atom/keymap.cson
+.atom/snippets.cson
+.atom/init.coffee
+.atom/packages.list
+.atom/styles.less
 .tmux.conf
 .vimrc
+.config/nvim/init.vim

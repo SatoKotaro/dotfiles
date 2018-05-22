@@ -1,0 +1,1 @@
+/home/tarotech/dotfiles/.atom/init.coffee
