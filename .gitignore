@@ -11,3 +11,24 @@
 .config/nvim/repos/
 .config/nvim/.netrwhist
 .config/configstore/update-notifier-npm.json
+
+# 1e5cfd213c0d858d8b3de64b22f242e5dc777841
+.config/QtProject.conf
+.config/Trolltech.conf
+.config/compiz-1/
+.config/dconf/
+.config/dleyna-renderer-service.conf
+.config/dleyna-server-service.conf
+.config/evolution/
+.config/fcitx/
+.config/gnome-control-center/
+.config/google-chrome/
+.config/gtk-3.0/
+.config/ibus/
+.config/libaccounts-glib/
+.config/obs-studio/
+.config/pulse/
+.config/update-notifier/
+.config/user-dirs.dirs
+.config/user-dirs.locale
+.config/yelp/
