@@ -1,0 +1,1 @@
+/Users/satokotaro/dotfiles/.atom/init.coffee

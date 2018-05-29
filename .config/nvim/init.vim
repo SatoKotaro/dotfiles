@@ -1,0 +1,1 @@
+/Users/satokotaro/dotfiles/.config/nvim/init.vim
