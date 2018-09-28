@@ -1,3 +1,8 @@
+if type trash-put &> /dev/null
+then
+    alias rm=trash-put
+fi
+echo Hello,deploy!
 # 自動補完
 autoload -U compinit
 compinit
