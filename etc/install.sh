@@ -6,3 +6,8 @@ sh ./installer.sh
 echo run install.sh
 rm ./installer.sh
 echo complete install
+
+#trash-cli
+git clone https://github.com/andreafrancia/trash-cli
+cd trash-cli
+python setup.py install
