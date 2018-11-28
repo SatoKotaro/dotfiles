@@ -1,1 +1,1 @@
-runtime! *.vim
+runtime! .vim/*.vim
