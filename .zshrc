@@ -73,6 +73,7 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 alias pbcopy='xsel --clipboard --input'
 alias ls.='ls -ld `ll | grep -e '^\..\+$'`'
+alias tree="pwd;find . | sort | sed '1d;s/^\.//;s/\/\([^/]*\)$/|--\1/;s/\/[^/|]*/| /g'"
 
 echo road .zshrc
 
