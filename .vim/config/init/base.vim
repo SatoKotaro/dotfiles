@@ -28,4 +28,5 @@ set nocompatible
 syntax on
 filetype on
 
-
+set wildmenu
+set history=1000
