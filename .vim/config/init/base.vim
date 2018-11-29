@@ -15,7 +15,6 @@ set visualbell
 set showmatch
 set laststatus=2
 set wildmode=list:longest
-set list listchars=tab:\▸\-
 set expandtab
 set tabstop=2
 set shiftwidth=2
@@ -26,4 +25,7 @@ set cindent
 set nobackup
 set nocompatible
 
-syntax enable
+syntax on
+filetype on
+
+
