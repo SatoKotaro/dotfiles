@@ -6,3 +6,11 @@ repo = 'cespare/vim-toml'
 
 [[plugins]] # nerdtree
 repo = 'scrooloose/nerdtree'
+
+[[plugins]] # unite
+repo = 'Shougo/unite.vim'
+
+[[plugins]] # commentout
+repo = 'scrooloose/nerdcommenter'
+
+
