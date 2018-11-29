@@ -1,0 +1,8 @@
+[[plugins]]
+repo = 'Shougo/dein.vim'
+
+[[plugins]] # toml syntax
+repo = 'cespare/vim-toml'
+
+[[plugins]] # nerdtree
+repo = 'scrooloose/nerdtree'

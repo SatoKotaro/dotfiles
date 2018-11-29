@@ -1,7 +1,3 @@
-" 全角スペースの背景を白に変更
-autocmd Colorscheme * highlight FullWidthSpace ctermbg=white
-autocmd VimEnter * match FullWidthSpace /　/
-
 set number
 set ruler
 set clipboard=unnamed
