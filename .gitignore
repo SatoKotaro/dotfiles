@@ -12,7 +12,7 @@
 .config/nvim/.netrwhist
 .config/configstore/update-notifier-npm.json
 
-# 1e5cfd213c0d858d8b3de64b22f242e5dc777841
+.vim/dein/
 .config/QtProject.conf
 .config/Trolltech.conf
 .config/compiz-1/
