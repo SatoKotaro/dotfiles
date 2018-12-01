@@ -1,11 +1,15 @@
 [[plugins]]
-repo = "davidhalter/jedi-vim"
+repo = 'davidhalter/jedi-vim'
 on_ft = ['python']
 
 [[plugins]]
-repo = "Shougo/deoplete.nvim"
+repo = 'Shougo/deoplete.nvim'
 hook_add = 'let g:deoplete#enable_at_startup = 1'
 
 [[plugins]] # 各言語の補完
-repo = "Shougo/neco-syntax"
+repo = 'Shougo/neco-syntax'
+
+[[plugins]] # vuejsのシンタックス
+repo = 'posva/vim-vue'
+
 
