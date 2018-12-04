@@ -1,3 +1,8 @@
+set number
+set ruler
+set hlsearch
+
+
 "不可視文字を可視化
 set list
 set listchars=tab:»-,

@@ -1,5 +1,3 @@
-set number
-set ruler
 set clipboard=unnamed
 set fenc=utf-8
 set nobackup
@@ -19,10 +17,8 @@ set expandtab
 set tabstop=2
 set shiftwidth=2
 set incsearch
-set hlsearch
 set softtabstop=0
 set cindent
-set nobackup
 set nocompatible
 
 syntax on
