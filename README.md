@@ -1,14 +1,37 @@
 # dotfiles
 
-. clean.sh $$ . deploy.sh
+## 導入方法
+```
+git clone https://github.com/punkrou404/dotfiles.git
+cd dotfiles
+. ./init.sh
+```
 
-# atom
+## vimrcの構成
 
-## installed package save
-apm list --installed --bare > packages.list
+```
+.vimrc
+.vim
+|--config
+| |--dein
+| | |--plugins.toml
+| | |--plugins.vim
+| | |--plugins_lazy.toml
+| |--init
+| | |--base.vim
+| | |--display.vim
+| | |--input.vim
+| | |--keymap.vim
+```
 
-## install my package 
-apm install --packages-file packages.list
+## zshrcの構成
 
-# Warning
-*.bash\_profile contains the setting of $PATH (export statement).*
+```
+.zshrc
+.zsh
+|--config
+| |--init
+| | |--base.sh
+| | |--pronpt.sh
+
+```
