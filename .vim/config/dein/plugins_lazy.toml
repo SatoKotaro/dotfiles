@@ -20,7 +20,7 @@ repo = 'posva/vim-vue'
 
 [[plugins]] # 自動補完
 repo = 'zchee/deoplete-jedi'
+on_ft = ['python']
 hook_add = """
-let g:deoplete#sources#jedi#python_path = '/usr/local/bin/python3'
 """
 
