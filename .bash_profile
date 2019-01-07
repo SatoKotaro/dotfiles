@@ -2,7 +2,7 @@ echo "road .bash_profile"
 test -r ~/.bashrc && . ~/.bashrc
 
 # path
-export PATH="/bin"
+export PATH="/bin:$PATH"
 export PATH="/sbin:$PATH"
 export PATH="/usr/bin:$PATH"
 export PATH="/usr/local/bin:$PATH"
