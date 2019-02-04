@@ -1,0 +1,26 @@
+[[plugins]]
+repo = 'Shougo/deoplete.nvim'
+hook_add = 'let g:deoplete#enable_at_startup = 1'
+
+[[plugins]] # toml syntax
+repo = 'cespare/vim-toml'
+on_ft = ['toml']
+
+[[plugins]] # for-vim(deoplete)
+repo = 'roxma/nvim-yarp'
+
+[[plugins]] # for-vim(deoplete)
+repo = 'roxma/vim-hug-neovim-rpc'
+
+[[plugins]] # 各言語の補完
+repo = 'Shougo/neco-syntax'
+
+[[plugins]] # vuejsのシンタックス
+repo = 'posva/vim-vue'
+
+[[plugins]] # 自動補完
+repo = 'zchee/deoplete-jedi'
+on_ft = ['python']
+hook_add = """
+"""
+

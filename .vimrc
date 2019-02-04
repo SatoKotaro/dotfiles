@@ -1,4 +1,7 @@
 echo 'loading vimrc...'
+set runtimepath+=~/.vim/
+runtime! config/init/*.vim
+
 if has('nvim')
   echo 'run nvim...'
   set runtimepath+=~/.nvim/
@@ -7,6 +10,4 @@ else
   set runtimepath+=~/.vim/
 endif
 
-
-runtime! config/init/*.vim
 runtime! config/dein/*.vim

@@ -1,1 +1,1 @@
-/Users/satokotaro/dotfiles/.config/nvim/init.vim
+source ~/.vimrc
