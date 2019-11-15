@@ -15,3 +15,5 @@ fi
 export GOPATH=$HOME/go
 PATH=$PATH:$GOPATH/bin 
 
+# npm
+export PATH=~/.npm-global/bin:$PATH
