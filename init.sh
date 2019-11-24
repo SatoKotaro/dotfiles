@@ -1,5 +1,6 @@
 #!/bin/bash
 set -e
+. ./install.sh
 DOT_DIRECTORY="$(cd $(dirname $0); pwd)"
 DOT_TARBALL="https://github.com/punkrou404/dotfiles.git"
 
