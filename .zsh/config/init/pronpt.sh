@@ -11,7 +11,8 @@ precmd () {
     vcs_info 
     local pwd=`pwd`
     local upowerw=`upowerw -p`
-    echo "[$upowerw]"`magenta "[$pwd]"`
+    local per_charge=`printf ⚡%03d%% $upowerw`
+    echo "[$per_charge]"`magenta "[$pwd]"`
 }
 
 PROMPT='%n@%m %# '
